@@ -4,8 +4,13 @@
 */
 'use strict'
 
-var React = require('react-native');
-var { StyleSheet, Text, TouchableOpacity, View } = React;
+import React, { Component } from 'react';
+import {
+  StyleSheet,
+  TouchableOpacity,
+  View,
+  Text
+} from 'react-native';
 
 module.exports = React.createClass({
     render: function() {
@@ -32,7 +37,7 @@ var styles = StyleSheet.create({
         height: 40,
         backgroundColor: 'white',
         borderColor: 'gray',
-        borderBottomWidth: 1,
+        borderBottomWidth: 0.1,
         alignSelf: 'stretch',
         justifyContent: 'center'
     }
