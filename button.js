@@ -36,8 +36,8 @@ var styles = StyleSheet.create({
     button: {
         height: 40,
         backgroundColor: 'white',
-        borderColor: 'gray',
-        borderBottomWidth: 0.1,
+        borderColor: 'rgba(135,135,135,0.2)',
+        borderBottomWidth:1,
         alignSelf: 'stretch',
         justifyContent: 'center'
     }
