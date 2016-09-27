@@ -38,7 +38,7 @@ module.exports =  React.createClass({
                         </View>
                         <Button
                             buttonStyle={{marginTop:6, borderRadius:6}}
-                            textStyle={{color:'red'}}
+                            textStyle={{color:'red',backgroundColor:'transparent'}}
                             onPress={this.props.onCancel}>{this.props.cancelText}</Button>
                     </Sheet>
                 </View>
